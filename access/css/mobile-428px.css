@@ -1,0 +1,148 @@
+@media (max-width: 428px) {
+    .wrapper {
+        max-width: 100%;
+    }
+
+    .wrapper::before {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        content: url(/access/img/Ellipse\ 2.png);
+    }
+
+    .container  {
+        max-width: 380px;
+    }
+    .button-submit {
+        margin: auto;
+    }
+    .header__logo {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .header__sidebar {
+        display: none;
+    }
+    .header__menu {
+        display: block;
+    }
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-section__content {
+        text-align: center;
+        width: 100%;
+        padding: 16px;
+        margin-bottom: 48px;
+    }
+    .hero-section__header  {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .hero-section__body {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: -1px;
+        margin-bottom: 24px;
+    }
+
+    .hero-section__image {
+        padding: 0 12px;
+    }
+
+    .hero-section__image > img {
+        width: 100%;
+    }
+
+    .companies  {
+        padding: 0;
+        margin-bottom: 88px;
+    }
+
+    .companies__header{
+        font-size: 14px;
+    }
+
+    .companies__logos-container {
+        gap: 30px;
+    }
+
+    .companies__logo-item > img {
+        width: 100%;
+    }
+
+    
+    .branding {
+        flex-direction: column-reverse;
+    }
+    
+    .custom {
+        flex-direction: column;
+    }
+
+    .branding, .custom  {
+        text-align: center;
+        margin-bottom: 120px;
+    }
+
+    .branding__content {
+        max-width: 380px;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    .branding__header {
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+
+    .branding__body {
+        font-size: 14px;
+        line-height: 28px;
+        padding: 0;
+        margin-bottom: 32px;
+    }
+
+    .button-more-icon {
+        transform: rotate(90deg);
+    }
+
+    .testimonial {
+        margin-bottom: 120px;
+    }
+
+    .testimonial__header {
+        font-size: 12px;
+    }
+
+    .testimonial__body {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .testimonial__container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contact {
+        padding: 56px 35px 49px;
+    }
+
+    .contact > img {
+        display: none;
+    }
+
+    .footer__flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__logos {
+        margin: auto;
+    }
+}
